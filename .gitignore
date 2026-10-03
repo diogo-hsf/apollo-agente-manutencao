@@ -1,0 +1,23 @@
+# Segredos - a chave do Gemini NUNCA vai para o repositorio
+.env
+*.key
+secrets*
+
+# Python e Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Artefatos gerados na execucao do notebook
+chroma_db/
+fila_manutencao.csv
+
+# Manuais originais dos fabricantes (direitos autorais - apenas referencia)
+manuais/
+
+# Pacotes e arquivos de sistema
+*.zip
+.DS_Store
+Thumbs.db
