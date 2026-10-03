@@ -1,0 +1,12 @@
+ordem_id,equipamento_id,data_abertura,data_conclusao,tipo_manutencao,sistema,codigo_alarme,descricao_servico,pecas_utilizadas,horas_parado
+OS-2026-0047,EH-07,2026-06-02,2026-06-02,Corretiva,Material rodante,,Ajuste da tensão da esteira esquerda.,,2
+OS-2026-0071,EH-07,2026-08-14,2026-08-14,Corretiva,Hidráulico,TL-214,Colmeia do arrefecedor de óleo hidráulico obstruída por lama: limpeza executada e nível do óleo completado com 20 litros.,APL-10026,6
+OS-2026-0089,EH-07,2026-09-09,2026-09-10,Corretiva,Hidráulico,TL-214,Alarme reincidente. Filtro de retorno do óleo hidráulico substituído; máquina testada por um turno sem alarme.,APL-10021,8
+OS-2026-0028,EH-11,2026-05-10,2026-05-10,Corretiva,Elétrico,TL-402,Bateria substituída após falha de partida.,,3
+OS-2026-0081,TE-02,2026-09-02,2026-09-02,Corretiva,Motor,TL-108,Alarme de restrição do filtro de ar. Elemento primário limpo com ar comprimido como medida provisória; revisão R500 pendente por indisponibilidade da máquina na frente de serviço.,,2
+OS-2026-0054,TE-05,2026-06-15,2026-06-15,Corretiva,Trem de força,TL-342,Limpeza do arrefecedor de óleo da transmissão.,,5
+OS-2026-0041,CR-03,2026-05-28,2026-05-28,Corretiva,Freios,TL-335,Ajuste do interruptor do freio de estacionamento.,,2
+OS-2026-0016,CR-04,2026-04-03,2026-04-03,Corretiva,Hidráulico,TL-226,Filtro de retorno hidráulico substituído.,,3
+OS-2026-0009,CB-12,2026-02-12,2026-02-12,Corretiva,Elétrico,,Lâmpada do farol dianteiro direito substituída.,,1
+OS-2026-0084,CB-14,2026-08-25,2026-08-25,Corretiva,Freios,TL-350,Vazamento na linha de ar do freio traseiro corrigido.,,4
+OS-2026-0097,CB-22,2026-09-26,,Corretiva,Trem de força,,Em andamento: substituição do conjunto de embreagem.,,

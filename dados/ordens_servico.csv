@@ -1,0 +1,7 @@
+os_id,data_abertura,obra_id,equipamento_informado,aberta_por,relato
+OS-2026-0101,2026-09-28 07:40,OB-01,EH-07,Operador de escavadeira,"Alarme TL-214 no painel. Depois de umas duas horas de trabalho a lança e o braço ficam lentos e sem força para escavar. De manhã, com a máquina fria, funciona normal."
+OS-2026-0102,2026-09-28 08:15,OB-01,CB-12,Motorista,Caminhão fazendo barulho estranho na frente.
+OS-2026-0103,2026-09-28 09:02,OB-01,EH-15,Apontador,"Vazamento de óleo no cilindro da caçamba da escavadeira, pingando bastante no fim do turno."
+OS-2026-0104,2026-09-28 09:30,OB-02,TE-02,Operador de trator,Trator perdendo força para empurrar material na rampa. A rotação cai muito com a lâmina carregada e está saindo fumaça escura no escapamento.
+OS-2026-0105,2026-09-28 10:05,OB-02,CR-04,Operador de carregadeira,"Pedal do freio ficando baixo e a carregadeira demorando para parar, principalmente com a caçamba cheia. Apareceu o alarme TL-331 no painel."
+OS-2026-0106,2026-09-28 10:20,OB-03,TE-05,Operador de trator,

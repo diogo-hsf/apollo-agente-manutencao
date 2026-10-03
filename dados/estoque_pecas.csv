@@ -1,0 +1,49 @@
+codigo_peca,descricao,ref_fabricante,ficha_tecnica,almoxarifado_id,saldo,unidade,prazo_reposicao_dias
+APL-10021,Filtro de retorno do óleo hidráulico,,FTM-CAT320,ALM-01,2,un,7
+APL-10021,Filtro de retorno do óleo hidráulico,,FTM-CAT320,ALM-02,1,un,7
+APL-10022,Kit de vedação do cilindro do braço,,FTM-CAT320,ALM-01,1,un,20
+APL-10022,Kit de vedação do cilindro do braço,,FTM-CAT320,ALM-CEN,1,un,20
+APL-10023,Filtro de óleo do motor,,FTM-CAT320,ALM-01,4,un,5
+APL-10023,Filtro de óleo do motor,,FTM-CAT320,ALM-02,3,un,5
+APL-10023,Filtro de óleo do motor,,FTM-CAT320,ALM-03,2,un,5
+APL-10024,Filtro primário de combustível (separador de água),,FTM-CAT320,ALM-01,4,un,5
+APL-10024,Filtro primário de combustível (separador de água),,FTM-CAT320,ALM-02,2,un,5
+APL-10025,Filtro secundário de combustível,,FTM-CAT320,ALM-01,4,un,5
+APL-10025,Filtro secundário de combustível,,FTM-CAT320,ALM-02,2,un,5
+APL-10026,Óleo hidráulico,,FTM-CAT320,ALM-01,380,L,3
+APL-10026,Óleo hidráulico,,FTM-CAT320,ALM-02,400,L,3
+APL-10026,Óleo hidráulico,,FTM-CAT320,ALM-03,200,L,3
+APL-10027,Mangueira de alta pressão do cilindro da caçamba,,FTM-CAT320,ALM-01,1,un,10
+APL-10027,Mangueira de alta pressão do cilindro da caçamba,,FTM-CAT320,ALM-CEN,2,un,10
+APL-10028,Elemento primário do filtro de ar,,FTM-CAT320,ALM-01,2,un,7
+APL-10028,Elemento primário do filtro de ar,,FTM-CAT320,ALM-02,1,un,7
+APL-20011,Elemento primário do filtro de ar,,FTM-CATD9T,ALM-02,2,un,7
+APL-20011,Elemento primário do filtro de ar,,FTM-CATD9T,ALM-03,1,un,7
+APL-20012,Elemento secundário do filtro de ar,,FTM-CATD9T,ALM-02,1,un,7
+APL-20012,Elemento secundário do filtro de ar,,FTM-CATD9T,ALM-03,1,un,7
+APL-20013,Filtro primário de combustível (separador de água),,FTM-CATD9T,ALM-02,2,un,7
+APL-20013,Filtro primário de combustível (separador de água),,FTM-CATD9T,ALM-03,2,un,7
+APL-20014,Filtro secundário de combustível,,FTM-CATD9T,ALM-02,2,un,7
+APL-20014,Filtro secundário de combustível,,FTM-CATD9T,ALM-03,2,un,7
+APL-20015,Filtro de óleo do motor,,FTM-CATD9T,ALM-02,3,un,7
+APL-20015,Filtro de óleo do motor,,FTM-CATD9T,ALM-03,2,un,7
+APL-30011,Filtro de óleo do motor,269-8325,FTM-CAT924H,ALM-01,2,un,7
+APL-30011,Filtro de óleo do motor,269-8325,FTM-CAT924H,ALM-02,2,un,7
+APL-30012,Filtro primário de combustível e separador de água,326-1644,FTM-CAT924H,ALM-02,2,un,7
+APL-30013,Filtro secundário de combustível,308-7480,FTM-CAT924H,ALM-02,2,un,7
+APL-30014,Elemento primário do filtro de ar,256-7902,FTM-CAT924H,ALM-02,1,un,7
+APL-30015,Elemento secundário do filtro de ar,256-7903,FTM-CAT924H,ALM-02,1,un,7
+APL-30021,Válvula de controle do freio de serviço,144-8521,FTM-CAT924H,ALM-02,0,un,15
+APL-30021,Válvula de controle do freio de serviço,144-8521,FTM-CAT924H,ALM-CEN,0,un,15
+APL-30022,Sensor de pressão do óleo do freio,290-5825,FTM-CAT924H,ALM-02,0,un,10
+APL-30022,Sensor de pressão do óleo do freio,290-5825,FTM-CAT924H,ALM-CEN,1,un,10
+APL-30023,Bomba de engrenagem do freio e do ventilador,299-3941,FTM-CAT924H,ALM-CEN,0,un,30
+APL-40011,Filtro de óleo do motor,,FTM-MBCAM,ALM-01,6,un,5
+APL-40011,Filtro de óleo do motor,,FTM-MBCAM,ALM-02,4,un,5
+APL-40012,Filtro de combustível,,FTM-MBCAM,ALM-01,6,un,5
+APL-40012,Filtro de combustível,,FTM-MBCAM,ALM-02,4,un,5
+APL-40013,Kit de lonas de freio dianteiro,,FTM-MBCAM,ALM-01,2,un,8
+APL-40013,Kit de lonas de freio dianteiro,,FTM-MBCAM,ALM-02,1,un,8
+APL-40014,Amortecedor dianteiro,,FTM-MBCAM,ALM-01,0,un,8
+APL-40014,Amortecedor dianteiro,,FTM-MBCAM,ALM-CEN,2,un,8
+APL-40015,Terminal de direção,,FTM-MBCAM,ALM-01,1,un,8

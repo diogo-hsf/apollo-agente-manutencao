@@ -1,0 +1,15 @@
+equipamento_id,tipo,fabricante,modelo,ano_fabricacao,obra_id,status_operacional,criticidade,horimetro_atual,ficha_tecnica
+EH-07,Escavadeira hidráulica,Caterpillar,CAT 320,2021,OB-01,Operando,A,7850,FTM-CAT320
+EH-09,Escavadeira hidráulica,Caterpillar,CAT 320,2022,OB-01,Operando,B,5120,FTM-CAT320
+EH-11,Escavadeira hidráulica,Caterpillar,CAT 320,2020,OB-02,Operando,A,9630,FTM-CAT320
+EH-13,Escavadeira hidráulica,Caterpillar,CAT 320,2023,OB-03,Disponível,B,3210,FTM-CAT320
+TE-02,Trator de esteiras,Caterpillar,CAT D9T,2019,OB-02,Operando,A,12480,FTM-CATD9T
+TE-05,Trator de esteiras,Caterpillar,CAT D9T,2021,OB-03,Operando,A,8870,FTM-CATD9T
+CR-03,Carregadeira de rodas,Caterpillar,CAT 924H,2018,OB-01,Operando,B,14320,FTM-CAT924H
+CR-04,Carregadeira de rodas,Caterpillar,CAT 924H,2019,OB-02,Operando,A,11760,FTM-CAT924H
+CR-06,Carregadeira de rodas,Caterpillar,CAT 924H,2017,OB-03,Disponível,C,16940,FTM-CAT924H
+CB-12,Caminhão basculante,Mercedes-Benz,MB Axor 3344 K,2022,OB-01,Operando,B,4380,FTM-MBCAM
+CB-14,Caminhão basculante,Mercedes-Benz,MB 2726 K,2020,OB-01,Operando,B,6720,FTM-MBCAM
+CB-15,Caminhão basculante,Mercedes-Benz,MB 2726 K,2020,OB-01,Operando,B,6505,FTM-MBCAM
+CB-21,Caminhão basculante,Mercedes-Benz,MB Axor 3344 K,2023,OB-02,Operando,B,2950,FTM-MBCAM
+CB-22,Caminhão basculante,Mercedes-Benz,MB Axor 3344 K,2023,OB-02,Em manutenção,B,3010,FTM-MBCAM
