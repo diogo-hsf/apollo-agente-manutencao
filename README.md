@@ -5,11 +5,17 @@
 Projeto da disciplina **Engenharia de Agentes e IA Agêntica** (Pós-graduação PUC Minas) —
 Entrega 1: caracterização do caso e agente único.
 
-O notebook implementa um agente único baseado em LLM que faz a triagem de ordens de
-serviço de manutenção de equipamentos pesados: consulta a documentação técnica (Vector RAG)
-e os sistemas operacionais (cadastro, histórico, preventiva, estoque e frota) por Tool Calling
-estruturado, valida o próprio parecer, aplica um guardrail de segurança e registra o resultado
-na fila de manutenção.
+Neste projeto, desenvolvi um agente de IA para fazer a triagem de ordens de serviço de
+manutenção de equipamentos pesados.
+
+O agente consulta a documentação técnica usando RAG e também acessa informações operacionais,
+como histórico de manutenção, planos de manutenção preventiva, estoque e equipamentos
+disponíveis. Com essas informações, analisa a ordem de serviço e gera um parecer. Antes de
+registrar o resultado, o sistema verifica se a recomendação atende às regras de segurança.
+
+A documentação técnica fica indexada em um Vector RAG, os sistemas operacionais (cadastro,
+histórico, preventiva, estoque e frota) são consultados por Tool Calling estruturado, e o
+parecer é validado antes de ser registrado na fila de manutenção.
 
 > **Dados fictícios.** A Construtora Apollo S.A., seus documentos, códigos de alarme TL e
 > códigos internos de peças APL foram criados para esta disciplina. Os modelos de
