@@ -67,5 +67,5 @@ Data de referência dos dados: **2026-09-28**.
 ## Conteúdo do notebook
 
 1. Caracterização do caso · 2. Desenho da solução · 3. Configuração e camada de acesso ao
-modelo (retry, cota, orçamento) · 4. Dados operacionais · 5. Base de conhecimento (Vector RAG) ·
+modelo (retry e cota) · 4. Dados operacionais · 5. Base de conhecimento (Vector RAG) ·
 6. Ferramentas · 7. O agente de triagem · 8. Testes de comportamento · 9. Conclusão

@@ -11,6 +11,7 @@ __pycache__/
 venv/
 
 # Artefatos gerados na execucao do notebook
+apollo_dados/
 chroma_db/
 fila_manutencao.csv
 
