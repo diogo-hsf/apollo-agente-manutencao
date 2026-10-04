@@ -1,30 +1,42 @@
 # Agente de Triagem de Ordens de Serviço de Manutenção — Construtora Apollo S.A.
 
-Projeto da disciplina **Engenharia de Agentes e IA Agêntica** (Pós-graduação PUC Minas).
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/diogo-hsf/apollo-agente-manutencao/blob/main/notebook/Apollo_Agente_Triagem_Manutencao.ipynb)
+
+Projeto da disciplina **Engenharia de Agentes e IA Agêntica** (Pós-graduação PUC Minas) —
+Entrega 1: caracterização do caso e agente único.
 
 O notebook implementa um agente único baseado em LLM que faz a triagem de ordens de
 serviço de manutenção de equipamentos pesados: consulta a documentação técnica (Vector RAG)
-e os sistemas operacionais (histórico, preventiva, estoque e frota) por Tool Calling
-estruturado e registra um parecer na fila de manutenção.
+e os sistemas operacionais (cadastro, histórico, preventiva, estoque e frota) por Tool Calling
+estruturado, valida o próprio parecer, aplica um guardrail de segurança e registra o resultado
+na fila de manutenção.
 
 > **Dados fictícios.** A Construtora Apollo S.A., seus documentos, códigos de alarme TL e
 > códigos internos de peças APL foram criados para esta disciplina. Os modelos de
 > equipamento são reais; os documentos técnicos são de autoria própria e não reproduzem
 > trechos dos manuais dos fabricantes. As referências de peças da carregadeira 924H seguem
-> o catálogo público do fabricante.
+> o catálogo do fabricante.
 
 ## Como executar
 
-1. Abra o notebook no Google Colab.
-2. Cadastre a chave do Gemini nos *Secrets* do Colab com o nome `GEMINI_API_KEY`.
+1. Abra o notebook no Google Colab pelo botão acima.
+2. Cadastre a chave do Gemini nos *Secrets* do Colab com o nome `GEMINI_API_KEY` e conceda
+   acesso ao notebook quando solicitado.
 3. Execute *Ambiente de execução → Executar tudo*.
 
 Nenhum outro requisito externo é necessário: documentos e tabelas são baixados deste
 repositório pelo próprio notebook.
 
+**Cota da API.** No nível gratuito, o `gemini-3.6-flash` permite cerca de 20 chamadas de
+geração por dia; uma execução completa usa entre 12 e 16. Se a cota se esgotar durante a
+execução, o notebook não é interrompido: as triagens afetadas são registradas como
+`incompleta` ou "não executada", e os testes indicam isso explicitamente.
+
 ## Estrutura
 
 ```
+notebook/
+  Apollo_Agente_Triagem_Manutencao.ipynb   entrega
 documentos/          base de conhecimento técnica (PDF) — indexada no Vector RAG
   FTM-CAT320.pdf     Ficha técnica de manutenção — Escavadeira CAT 320
   FTM-CATD9T.pdf     Ficha técnica de manutenção — Trator de esteiras CAT D9T
@@ -42,7 +54,12 @@ dados/               estado operacional (CSV) — acessado pelas ferramentas
   registro_preventivas.csv
   estoque_pecas.csv
 scripts/             geradores dos documentos e das tabelas (reprodutibilidade)
-notebook/            notebook da entrega
 ```
 
 Data de referência dos dados: **2026-09-28**.
+
+## Conteúdo do notebook
+
+1. Caracterização do caso · 2. Desenho da solução · 3. Configuração e camada de acesso ao
+modelo (retry, cota, orçamento) · 4. Dados operacionais · 5. Base de conhecimento (Vector RAG) ·
+6. Ferramentas · 7. O agente de triagem · 8. Testes de comportamento · 9. Conclusão
