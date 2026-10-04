@@ -13,6 +13,7 @@ Convenções que o chunker do notebook depende:
 
 Blocos aceitos em cada seção:
     ("p", texto)                     parágrafo
+    ("sub", numero, titulo)          subseção, ex.: ("sub", "5.2", "Sintomas")
     ("lista", [itens])               itens já prefixados com "a)", "b)"...
     ("tabela", cabecalho, linhas)    tabela simples
 """
