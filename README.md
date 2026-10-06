@@ -34,9 +34,11 @@ Nenhum outro requisito externo é necessário: documentos e tabelas são baixado
 repositório pelo próprio notebook.
 
 **Cota da API.** No nível gratuito, o `gemini-3.6-flash` permite cerca de 20 chamadas de
-geração por dia; uma execução completa usa entre 12 e 16. Se a cota se esgotar durante a
-execução, o notebook não é interrompido: as triagens afetadas são registradas como
-`incompleta` ou "não executada", e os testes indicam isso explicitamente.
+geração por dia; uma execução completa usa entre 12 e 16. Se o modelo estiver sobrecarregado
+(erro 503) ou esgotar a cota, o notebook passa para um modelo de reserva (`gemini-3.5-flash` e,
+depois, `gemini-3.1-flash-lite`). Se nenhum responder, o notebook não é interrompido: as
+triagens afetadas são registradas como `incompleta` ou "não executada", e os testes indicam
+isso explicitamente.
 
 ## Estrutura
 
